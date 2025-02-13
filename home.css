@@ -1,0 +1,322 @@
+@import url("https://use.typekit.net/ozy6rdy.css");
+
+@import "https://www.shannonkay.com/fontawesome/css/fontawesome.css";
+@import "https://www.shannonkay.com/fontawesome/css/brands.css";
+@import "https://www.shannonkay.com/fontawesome/css/solid.css";
+
+body {
+   /*
+    background: linear-gradient(to bottom, #f7d3d6, #FC8EAC);
+    */
+    background: linear-gradient(to bottom, #f9dee1, #f7d3d6, #fab1c1, #FC8EAC, #fc7d99 );
+    text-align: center;
+    font-family: "ivystyle-sans", Verdana, sans-serif;
+    font-size: 1.1rem;
+    min-height: 100vh;
+    }
+.gradient-bg {
+  background: linear-gradient(to bottom, #ffffff, #f7d3d6, #FC8EAC);
+}
+i {
+    
+}
+
+/*
+h1   {
+     text-align: center;
+     font-size: 5vw;
+     color: #FC8EAC;
+}
+*/
+h1, h2, h3, h4 {
+
+}
+h1 {
+    background: linear-gradient(183deg, #f9c2cc 10%, #FC8EAC 70%);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+    font-size: 5vw;
+    margin-bottom: 10pt;
+    
+}
+
+h1 a, h1 a:hover, h1 a:active, h1 a:visited {
+    background: linear-gradient(183deg, #f9c2cc 10%, #FC8EAC 70%);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+    font-size: 5vw;
+    margin-bottom: 10pt;
+    
+}
+
+h1 .project-header a, h1 .project-header a:hover, h1 .project-header a:active, h1 .project-header a:visited {
+    background: linear-gradient(183deg, #f9c2cc 10%, #FC8EAC 70%);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+    font-size: 1rem;
+    margin-bottom: 5pt;
+    
+}
+
+@media screen and (max-width: 428px) 
+{
+  h1 { font-size: 8vw !important; }
+}
+
+h2   {
+     text-align: center;
+     font-size: 4vw;
+     color: #FC6C85;
+    margin-top: 1pt;
+    margin-bottom: 5pt;
+}
+
+h3   {
+    color: #FC6C85;
+    margin-bottom: 0;
+}
+
+h4   {
+    color: #FC6C85;
+    margin-bottom: 0;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 5px;
+}
+
+hr    {
+    max-width: 80%;
+    border: solid 1pt #FC8EAC;
+    
+    }
+
+a {
+  color: #fb6f92;
+}
+
+a:hover, a:active {
+    color: #ffffff;
+    background: linear-gradient(183deg, #f9c2cc 10%, #FC8EAC 70%);
+}
+.username a, .username a:visited, {
+    text-decoration: none;
+}
+.emoji {
+    height: 1.2rem;
+    width: auto;
+}
+.icon {
+    height: 1.2rem;
+    width: auto;
+}
+nav {
+    padding: 5pt;
+    margin-bottom: 5pt;
+}
+
+nav a, nav a:visited { 
+    font-family: ivyjournal, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(183deg, #f9c2cc 10%, #FC8EAC 70%);
+    border: solid 2px #ffb3c6;
+    padding: 5px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+    margin-top: 2pt;
+}
+
+.heart {
+    text-align: right;
+    font-size: 0.9rem;
+}
+nav a:hover, nav a:active 
+{
+
+  border: solid 2px #FC8EAC;
+}
+
+.link
+{
+  background-color: #FC8EAC;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+
+#pages a:hover, nav a:active 
+{
+  background-color: #fb6f92;
+  color: #ffe5ec;
+}
+
+article {
+        text-align: justify;
+        padding: 2pt;
+        margin: auto;
+        align: center;
+        max-width: 1024px;
+
+        }
+
+article ul {
+        text-align: left;
+        }
+article img {
+        padding: 2pt;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+.intro img {
+    padding: 5px;
+}
+.blurb {
+    display: block;
+    background-color: #f7d3d6;
+    border: solid 2pt;
+    border-color: white;
+    padding: 5pt;
+    margin: auto;
+    align: center;
+    max-width: 1024px;
+    border-radius: 10px;
+}
+
+.now {
+    display: block;
+    background-color: #f7d3d6;
+    border: solid 2pt;
+    border-color: white;
+    padding: 5pt;
+    margin: auto;
+    text-align: justify;
+    max-width: 1024px;
+    border-radius: 10px;
+}
+.text {
+    display: block;
+    background-color: #f7d3d6;
+    border: solid 2pt;
+    border-color: white;
+    padding: 5pt;
+    margin: auto;
+    text-align: justify;
+    max-width: 1024px;
+    border-radius: 10px;
+}
+
+.intro {
+    display: block;
+    background-color: #f7d3d6;
+    border: solid 2pt;
+    border-color: white;
+    padding: 5pt;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    max-width: 1024px;
+    border-radius: 10px;
+}
+
+.icon {
+    height: 1.2rem;
+    width: auto;
+}
+
+.social-icons {
+    font-size: 1.5rem
+}
+
+#follow-icons {
+    margin-bottom: 5pt;
+}
+
+.photo img {
+    border: solid white 2pt;
+}
+
+.photo {
+    align-content: center;
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+.bio {
+    background: linear-gradient(to bottom, #f9dee1, #f7d3d6, #fab1c1 );
+    color: #484848;
+    border: 1pt solid #FC8EAC;
+    border-radius: 10pt;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    padding: 5pt;
+    box-shadow: 5px 5px 5px #777676;
+    margin-bottom: 10pt;
+    font-size: 1rem;
+    min-height: 225px;
+}
+
+.bio img {
+    float: left;
+    margin-top: auto;
+    margin-right: 5pt;
+    border-radius: 8pt;
+    max-width: auto; 
+    max-height: 200px;
+    
+}
+
+.updated {
+    font-size: 1rem;
+    color: #484848;
+    font-style: italic;
+}
+
+footer
+    {
+    font-size: 1rem;
+    padding: 2pt;
+    }
+/* Quote of Many Colors */
+.blog-post blockquote {
+    font-style: normal;
+    background-color: #fab1c1;
+    font-weight: 400;
+    color: #404040;
+    border-image: linear-gradient(180deg, #f681ae, #f38282, #f7d54d, #6ed46e, #3ed3da, #a48ac9 100%);
+    border-image-slice: 1;
+    border-top: 0.1rem solid #FC8EAC;
+    border-right: 0.1rem solid #FC8EAC;
+    border-bottom: 0.1rem solid #FC8EAC;
+}
+
+@media(prefers-color-scheme: dark) {
+  body {
+        background-color: #282A36;
+    }
+}
+
+/* Custom Icons */
+
